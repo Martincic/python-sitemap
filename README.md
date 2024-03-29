@@ -15,6 +15,23 @@ Read a config file to set parameters:
 
 	>>> python main.py --config config/config.json
 
+#### Config.json example
+```
+{
+  "domain": "http://blog.lesite.us",
+  "parserobots": false,
+  "debug": true,
+  "output": "sitemap.xml",
+  "skipext": [
+      "pdf",
+      "xml"
+  ],
+  "exclude": [
+      "action=edit"
+  ]
+}
+```
+
 #### Enable debug:
 
   ```
