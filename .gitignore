@@ -1,5 +1,8 @@
 .DS_Store
 
+# hide configuration
+config.py
+
 *.py[cod]
 
 # C extensions
